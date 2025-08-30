@@ -18,59 +18,43 @@
  
 //Program :
 
-// #include <iostream>
-// #include <map>
-// #include <string>
-// using namespace std;
-// int main(){
-//     string s="is2 sentence4 This1 a3";
-//     map<int,string>m;
-//     string temp = "";
-//     for(int i=0;i<s.size();i++){
-//         if(s[i]==' ')
-//         continue;
-//         if(s[i]>='0'&&s[i]<='9'){
-//             m[s[i]-'0']=temp;
-//             temp="";
-//         }else
-//             temp+=s[i];
-            
-//     }string ans;
-//     for(auto i:m){
-//         ans+=i.second+" ";
-//     }
-//     ans.pop_back();
-//     cout<<ans<<endl;
-//     return 0;
-// }
-
-
-
-//Create a function which returns lcm of 2 numbers :
-
 #include <iostream>
 #include <map>
 #include <string>
 using namespace std;
-int lcm(int a,int b);
 int main(){
-    int flcm=lcm(30,12);
-    cout<<flcm;
-
+    string s="is2 sentence4 This1 a3";
+    map<int,string>m;
+    string temp = "";
+    for(int i=0;i<s.size();i++){
+        if(s[i]==' ')
+        continue;
+        if(s[i]>='0'&&s[i]<='9'){
+            m[s[i]-'0']=temp;
+            temp="";
+        }else
+            temp+=s[i];
+            
+    }string ans;
+    for(auto i:m){
+        ans+=i.second+" ";
+    }
+    ans.pop_back();
+    cout<<ans<<endl;
     return 0;
 }
-int lcm(int a,int b){
-    int lcm;
-    if(a>b)
-    lcm=a;
-    else
-    lcm=b;
-    int temp=lcm;
-    for(int i=0;i<lcm;i++){
-    if((lcm%a==0)&&(lcm%b==0)){
-        return lcm;
-    }
-        lcm+=temp;
-}return lcm;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

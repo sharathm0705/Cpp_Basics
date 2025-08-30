@@ -32,13 +32,21 @@
 // Explanation:
 // Only one character is available, so the palindrome is "a" itself.
 
-//Program :
+
+// ---
+
+// ✅ Constraints:
+
+// 1 <= s.length <= 2000
+
+// s consists of only lowercase English letters
+
 
 #include <iostream>
 #include <map>
 using namespace std;
 int main(){
-    string s="abccccdd";
+    string s="sharath";
     int ans=0,flag=0;
     map<char,int>m;
     for(int i=0;i<s.size();i++){
@@ -61,7 +69,3 @@ int main(){
 
     return 0;
 }
-
-
-
-

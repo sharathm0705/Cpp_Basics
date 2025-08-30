@@ -37,12 +37,6 @@
 // Hello, World!
 // Output:
 // No
-
-// Example 4
-// Input:
-// ABCDEFGHIJKLmnopqrstuvwxyz
-// Output:
-// Yes
 //Problem :
 
 #include <iostream>
