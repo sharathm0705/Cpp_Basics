@@ -32,11 +32,7 @@
 // Output:
 // Yes
 
-// Example 3
-// Input:
-// Hello, World!
-// Output:
-// No
+
 //Problem :
 
 #include <iostream>

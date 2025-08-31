@@ -35,13 +35,6 @@
 // Input: apple paple
 // Output: Yes
 
-// Example 4
-// Input: hello world
-// Output: No
-
-// Example 5
-// Input: aab abb
-// Output: No
 //Program :
 
 #include <iostream>
