@@ -1,0 +1,14 @@
+# Build & Binary Artifacts
+*.o
+*.out
+*.exe
+bin/
+build/
+cmake-build*/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
